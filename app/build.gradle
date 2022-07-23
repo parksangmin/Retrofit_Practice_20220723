@@ -1,11 +1,18 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    
+
 }
 
 android {
     compileSdk 32
+
+
+
+
+    buildFeatures {
+        dataBinding = true
+    }
 
     defaultConfig {
         applicationId "com.sangmin.retrofit_practice_20220723"
